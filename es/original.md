@@ -1,7 +1,7 @@
 # ZonEcrón© Original
 ## Manual de Usuario
 
-![Pareja Original](./Imagenes/parejaOriginal.png)
+![Pareja Original](../images/original/couple.png)
 
 ## Contenido
 
@@ -24,6 +24,7 @@
 
 
 ## 1 Introducción
+
 
 ### 1.1 Objetivo del equipo
 
@@ -60,20 +61,21 @@ Si tenéis una necesidad concreta que el ZonEcrón© no satisface, hay otros pro
 
 ## 2 Uso
 
+
 ### 2.1 Encendido y colocación
 
 Una pareja de ZonEcrón© original la forman el emisor de infrarrojos (la caja sin pantalla) y el receptor de infrarrojos (la caja con pantalla). 
 
 Ambos disponen de una pinza con uno de los lados fijo en la caja y el otro deslizante guiado por dos varillas de acero. Mediante una goma interna, ambos lados de la pinza permanecen juntos. Esta goma puede ajustarse rápidamente a 3 niveles de tensión, moviendo los extremos anudados de la goma, para adaptarse a diferentes grosores de la estructura del ala o palo. Ver fotos a continuación:
   
-|                Mínima tensión              |               Media tensión                |               Máxima tensión               |
-|--------------------------------------------|--------------------------------------------|--------------------------------------------|
-| ![Posicion gomas](./Imagenes/gomasMin.png) | ![Posicion gomas](./Imagenes/gomasMed.png) | ![Posicion gomas](./Imagenes/gomasMax.png) |
-| Perfil de valla ancho.                     | Para tubo redondo.                         | Perfil de valla estrecho.                  |
-| p. ej. saltos de aluminio.                 | p. ej. saltos de pvc o palos del longitud. | p. ej. saltos de acero galvanizado.        |
+|                Mínima tensión                        |               Media tensión                          |               Máxima tensión                         |
+|------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| ![Posicion gomas](../images/original/tensionMin.png) | ![Posicion gomas](../images/original/tensionMed.png) | ![Posicion gomas](../images/original/tensionMax.png) |
+| Perfil de valla ancho.                               | Para tubo redondo.                                   | Perfil de valla estrecho.                            |
+| p. ej. saltos de aluminio.                           | p. ej. saltos de pvc o palos del longitud.           | p. ej. saltos de acero galvanizado.                  |
 
 Deslizando la pinza para abrirla, colocamos el ZonEcrón© a la parte vertical del ala (o a un poste del salto de longitud). Pondremos a la derecha el emisor y a la izquierda el receptor, de modo que queden más o menos alineados los dos emisores con los dos receptores:
-![Doble Sensor](./Imagenes/dobleSensor.png)
+![Doble Sensor](../images/original/doubleSensor.png)
 
 A continuacion procedemos a encender el emisor y el receptor. 
 Para verificar que el emisor está encendido basta con comprobar el LED azul, que estará fijo, o parpadeando (si queda poca batería). 
@@ -82,10 +84,11 @@ En el caso del receptor, la luz azul se encenderá nada más encenderlo, en pant
 **Es de vital importancia** dejar separación entre el palo y el emisor inferior para maximizar las probabilidades de detección. Recomendamos que el emisor inferior esté 10cm por encima del palo en XS, S y M, y 15cm por encima del palo para L y XL.
 Por ejemplo, para M debe quedar así:
 
-![Altura Zonecron](./Imagenes/alturaZon.png)
+![Altura Zonecron](../images/original/positioning.png)
 
 
 ### 2.2 Alineación y detección
+
 Una vez el emisor y receptor se encuentran uno en frente del otro y están encendidos, la luz azul del receptor se apagará si la alineación es correcta y no hay obstáculos interrumpiendo el haz de infrarrojos. En el momento en el que el haz se interrumpe (por paso o desalineación), se encenderá el LED azul del receptor un mínimo de 0,5s, o si la interrupción dura más tiempo, se mantendrá encendido ese tiempo.
 
 El emisor dispone de 2 LEDs de infrarrojos, uno superior y otro inferior, a su vez el receptor dispone de un receptor superior y otro inferior. La recepción es selectiva de modo que el receptor superior solo atiende al infrarrojo enviado por el emisor superior. Idem con la pareja inferior. Esto genera en la práctica dos barreras rectas que van del emisor al receptor. No hay detección cruzada. 
@@ -95,20 +98,21 @@ Recomendamos una distancia mínima de uso de 1m. La distancia máxima depende de
 
 
 ### 2.3 Auto-interferencia de infrarrojos
+
 Debido a la potencia empleada en los infrarrojos para funcionar a plena luz del sol, puede ocurrir que un receptor reciba los infrarrojos de 2 emisores. Este efecto es más acusado en condiciones de poca luminosidad ambiental o en espacios cerrados.
 El síntoma más aparente es que la luz azul de un receptor esté constantemente encendiéndose y apagándose pudiendo llegar a iniciarse y pararse el conteo de tiempo sin que se haya cortado el haz.
 
 Esto se debe a que un receptor recibe los infrarrojos de 2 emisores a la vez, por la colocación en pista o por rebote en superficies cercanas (paredes o cristales). Por ejemplo, en este caso el receptor 1 (R1) recibe los infrarrojos del emisor 1 (E1) y el emisor 2 (E2):
 
-![Autointerferencia](./Imagenes/autointer.png)
+![Autointerferencia](../images/original/selfInterference.png)
 
 Para evitar esto colocaremos los receptores de forma que solo puedan recibir los infrarrojos de un solo emisor, por ejemplo, cambiándolos de lado en el salto. En el ejemplo anterior haremos esto:
 
-![Autointerferencia](./Imagenes/noAutointer1.png)
+![Autointerferencia](../images/original/noSelfInterference1.png)
 
 Si obligatoriamente tenemos que mantener la pareja 2 en mismo lado del salto, podremos usar unos postes del salto de longitud, o en última instancia ponerlos boca-abajo:
 
-![Autointerferencia](./Imagenes/noAutointer2.png)
+![Autointerferencia](../images/original/noSelfInterference2.png)
 
 
 ### 2.4 Comunicación radio
@@ -180,15 +184,18 @@ El ZonEcron original ha sido diseñado para funcionar perfectamente en exteriore
 
 
 ## 2.9 Almacenaje
+
 A la hora de guardar el ZonEcron hay que tener en cuanta la humedad y la bateria:
 - En primer lugar, y como ya se ha mencionado, el ZonEcron es a prueba de lluvia pero no de humedad. Si se mantiene humedo varios días, la humedad ira penetrando poco a poco en la envolvente y puede llegar a dañar irremediablemente los componentes electronicos. Por ello, si se ha usado bajo la lluvia, antes de guardarlo se debe dejar en un ambiente seco durante un dia para eliminar completamene la posible humedad.
 - En segundo lugar, en lo relativo a la batería, si se tiene previsto no utilizar el ZonEcrón© en una temporada, lo mejor es dejar las baterías a media carga para maximizar su vida útil. Almacenar baterías de litio totalmente cargadas o descargadas periodos prolongados, puede disminuir sus prestaciones enormemente.
 
 
 ## 3 Epílogo
+
 Disfrutad con vuestros perros, no os dejéis llevar por la frustración al comparar tiempos con los de los demás (aunque el pique sano hace que los entrenos sean más divertidos). Solo tenéis que competir contra vosotros mismos, y este crono pretende ayudaros a buscar la linea más fluida y rápida para vosotros y vuestros perros. 
 Os deseamos que le saquéis el máximo partido al ZonEcrón©, y ya sabéis, ni un puto rehúse por ahorrar un paso, un rehúse por vagos no... Echadle ganas hostiasssss...
 
 
 ## 4 Contacto
+
 Para soporte técnico, dudas o sugerencias, podéis contactar con nosotros a través de nuestro correo electrónico: [zonecron@gmail.com](mailto:zonecron@gmail.com)

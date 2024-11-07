@@ -4,9 +4,11 @@
 - Follow us https://www.facebook.com/zonecron
 - Write us zonecron@gmail.com
 
-## Listado de manuales
+## Manuals:
 
-1. [OriginalL](original.md)
-2. [Mochila](mochila.md)
-3. [Invisible / barras](invisible-barras.md)
-4. [Pantalla](pantalla.md)
+1. Original: [EN](./es/original.md) [ES](./en/original.md)
+
+## Coming soon:
+2. [Dongle]()
+3. [Invisible / Bars]()
+4. [Display]()
